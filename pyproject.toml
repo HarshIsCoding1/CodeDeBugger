@@ -1,0 +1,16 @@
+[project]
+name = "week6proj"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "openai>=3.35.1",
+    "python-dotenv>=1.2.4",
+]
+
+[tool.uv.workspace]
+members = [
+    "actualproj",
+    "codingAgent",
+]
